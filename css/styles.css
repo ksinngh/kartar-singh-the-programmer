@@ -1,0 +1,194 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family:  'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem; 
+    
+   
+     /*line-height: 2;   */
+    /* we want 90px so 70/16=4.375(437.5%)/(4.375em) /* 100% is equavelent to 16px size and percentage is used to mold our changes according to browser where px doesn't shape itself*/
+    /* and now 1em is equal to 100% which means "16px = 100% = 1em" both % and em are dynamic & browser friendly 
+    and px is static no deep ubderstanding but the browser friendly and using static or dynamic really doesn't matter because
+    people can zoom in or out to get good look of font-size */
+    
+    /* width: 20%; */
+   /* margin:  auto;  */ /* if in block/inline-block 'width' is changed from default then use it . For horizontally centered - 0 (top) auto (right) 0 (bottom) auto (left) [or] 0 (top and bottom) auto (right and left) [or] auto(right and left)  */
+}
+
+h2 {
+    color:#66BFBF;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;   
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+
+
+hr {
+    border-style: none;
+    border-top: dotted #EAF6F6;
+    border-width: 6px;
+    width: 4%;
+    margin: 100px auto ;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
+
+.profile {
+
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding: 100px 0;
+   background-color: #FFDCA9; /* I changed it without any instruction from angela*/ 
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.intro-img {               /* i added the class and img to top container */ 
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 7%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 40px;
+    
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 310px;
+} 
+
+
+.skill-row {
+    /*display: inline-block; "my method to do it but ms. yu has diffrent so i am not sure it is right or not
+     but it worked for this/now */
+    width: 50%;
+    margin: 80px auto;     /* Ms.yu has this method by equaling all sides margin */
+    text-align: left;
+   
+}
+
+/*.profile {
+    padding-top: 10px;
+}*/
+
+.pfile {
+    border-radius: 30%;
+}
+
+.d-d {
+    width: 30%;
+    border-radius: 30%;   /* i added this */ 
+    float: left;
+    margin-right: 20px;
+}
+
+.twork {
+    width: 30%;
+    border-radius: 30%;  /* i added this */
+    float: right;
+    margin-left: 20px;
+}
+
+/* use 'clear' property to prevent wrapped around thing/space, for ex: give class to <p code-skill-description></p> and 
+use clear to get unwrapped space.
+.code-skill-description {
+    clear: left;
+}
+
+.self-skill-description {
+    clear: right;
+} 
+*/
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
